@@ -1,0 +1,96 @@
+div {
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #31343F;
+}
+
+.section {
+    width: 960px;
+}
+.feat {
+    display:flex;
+    justify-content:space-between;
+}
+.feat-box-left {
+    width: 66%;
+    padding-top:20px;
+}
+.feat-box-right {
+    width:34%;
+    background-image:url("../img/dude.jpg");
+    background-size: cover;
+    height: 400px;
+}
+img {
+    max-width: 100%;
+}
+
+.nav {
+    display: flex;
+}
+
+.nav-link {
+    display: block;
+    padding: 10px;
+    color: white;
+    font-family: verdana;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.active {
+    color: #5BDA54;
+}
+
+.feat h1 {
+    margin-top:60px;
+    margin-bottom:30px;
+    color: #5BDA54;
+    font-size: 36px;
+    font-family: Verdana;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.feat h3 {
+    color: white;
+    font-size: 20px;
+    font-family: Verdana;
+    padding: 10px;
+}
+
+.btn {
+    display: block;
+    background: #5BDA54;
+    border-radius: 8px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    width: 120px;
+    text-align: center;
+    margin:10px;
+}
+
+.sect-banor {
+    display:flex;
+    background: lightgray;
+}
+
+.banor-left {
+    width:66%;
+    background-image:url("../img/action.jpg");
+    background-size: cover;
+    height:250px;
+}
+.banor-right {
+    width:34%;
+    padding:10px;
+}
