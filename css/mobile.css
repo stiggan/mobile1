@@ -1,0 +1,9 @@
+/*
+ * Denna gör så att det innanför endast gäller läsare som uppfyller kraven. Dvs enheter
+ * med endast skärm, och max bredd-upplösning på 480 pixlar.
+ */
+@media only screen and (max-device-width: 480px) {
+    body {
+        background-color: green;
+    }
+}
